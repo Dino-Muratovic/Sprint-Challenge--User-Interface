@@ -129,6 +129,9 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
 }
 
 footer nav {
@@ -138,9 +141,160 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Added header and navigation bar starts here*/
+header {
+    display:flex;
+    justify-content: space-between;   
+   
+}
+.lambda-logo {
+    
+    justify-content: flex-start;
+    width:43%;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    margin-right:40%;
+    
+}
+
+.nav-bar a {
+    text-decoration: none;
+    align-content: flex-end;
+    padding:1%;
+    color:black;  
+    margin:0 13%; 
+
+}
+
+
+/*Added jumbo image starts here*/
+
+.jumbo-image {
+   
+    width:100%;
+    margin:2% auto;
+}
+
+.jumbo-image img {
+    width: 100%;
+
+}
+
+/*Section about starts here*/
+
+.about h2 {
+    font-weight: bold;
+    font-size: 22px;
+}
+.about div {
+   font-size: 17px;
+}
+
+/*Section cards starts here*/
+hr {
+    border-style: dashed; 
+    margin-top:5%;     
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.cards div {
+    width:48%;
+    margin-top:5%;
+}
+
+.cards h2 {
+    margin-left:2%;
+    margin-top:2%;
+    font-weight: bold;
+    font-size:22px;
+}
+.cards p {
+    margin-left:2%;
+    font-size: 17px;
+}
+
+.cards button {
+    width:35%;
+    padding:2%;
+    border:1px solid black;
+    border-radius:10px;
+    margin:5% 2%;
+    background-color: white;
+}
+
+.cards a {
+    text-decoration: none;
+    color:black;
+}
+
+/*Last section starts here*/
+
+.last-section {
+    display: flex;
+    justify-content: center;
+}
+.last-section h2 {
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.last-section div {
+    font-size: 17px;
+}
+
+
+/*Colored boxes start here*/
+
+ #box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color:gold;
+}
+#box3 {
+    background-color:cadetblue;
+}
+#box4 {
+    background-color:coral;
+}
+#box5 {
+    background-color:crimson;
+}
+#box6 {
+    background-color:forestgreen;
+}
+#box7 {
+    background-color:darkorchid;
+}
+#box8 {
+    background-color:hotpink;
+}
+#box9 {
+    background-color:indigo;
+}
+#box10 {
+    background-color:dodgerblue;
+} 
+
+
+
+
